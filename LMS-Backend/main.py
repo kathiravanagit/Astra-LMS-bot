@@ -68,7 +68,7 @@ def start_chat(user_qn):
 
 # Flask app
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": ["https://astrabot12.vercel.app", "http://localhost:5173", "http://localhost:5174", "https://your-railway-app-url"]}})
+CORS(app, resources={r"/*": {"origins": ["https://astralmsbot.vercel.app", "http://localhost:5173", "http://localhost:5174"]}})
 
 @app.route("/")
 def home():
