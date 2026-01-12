@@ -1,4 +1,4 @@
-# LMS Chatbot Astra
+# LMS Chatbot 
 
 A lightweight LMS assistant: Python backend + Vite React frontend.
 
